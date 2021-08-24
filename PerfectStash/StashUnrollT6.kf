@@ -1,0 +1,21 @@
+stash := uniform [0..7];
+stkout := 0;
+
+leak (stkout == stash);
+stkout := stkout + 1;
+
+leak (stkout == stash);
+stkout := stkout + 1;
+
+leak (stkout == stash);
+stkout := stkout + 1;
+
+leak (stkout == stash);
+stkout := stkout + 1;
+
+leak (stkout == stash);
+stkout := stkout + 1;
+
+leak (stkout == stash);
+stkout := stkout + 1;
+
