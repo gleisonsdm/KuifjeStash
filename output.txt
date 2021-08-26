@@ -1,3 +1,24 @@
+OUTPUT to ./ImperfectDynStash/StashUnrollT0.kf
+Up to date
+> Variable stash hyper
+1 % 1   1 % 8   R (0 % 1)
+        1 % 8   R (1 % 1)
+        1 % 8   R (2 % 1)
+        1 % 8   R (3 % 1)
+        1 % 8   R (4 % 1)
+        1 % 8   R (5 % 1)
+        1 % 8   R (6 % 1)
+        1 % 8   R (7 % 1)
+
+> condEntropy bayesVuln hyper
+1 % 8
+
+> Variable stkout hyper
+1 % 1   1 % 1   R (0 % 1)
+
+> condEntropy bayesVuln hyper
+
+1 % 1
 OUTPUT to ./ImperfectDynStash/StashUnrollT10.kf
 Up to date
 > Variable stash hyper
@@ -280,6 +301,27 @@ Up to date
 > condEntropy bayesVuln hyper
 
 1 % 1
+OUTPUT to ./ImperfectStash/StashUnrollT0.kf
+Up to date
+> Variable stash hyper
+1 % 1   1 % 8   R (0 % 1)
+        1 % 8   R (1 % 1)
+        1 % 8   R (2 % 1)
+        1 % 8   R (3 % 1)
+        1 % 8   R (4 % 1)
+        1 % 8   R (5 % 1)
+        1 % 8   R (6 % 1)
+        1 % 8   R (7 % 1)
+
+> condEntropy bayesVuln hyper
+1 % 8
+
+> Variable stkout hyper
+1 % 1   1 % 1   R (0 % 1)
+
+> condEntropy bayesVuln hyper
+
+1 % 1
 OUTPUT to ./ImperfectStash/StashUnrollT1.kf
 Up to date
 > Variable stash hyper
@@ -480,6 +522,27 @@ Up to date
 
 > Variable stkout hyper
 1 % 1   1 % 1   R (8 % 1)
+
+> condEntropy bayesVuln hyper
+
+1 % 1
+OUTPUT to ./PerfectStash/StashUnrollT0.kf
+Up to date
+> Variable stash hyper
+1 % 1   1 % 8   R (0 % 1)
+        1 % 8   R (1 % 1)
+        1 % 8   R (2 % 1)
+        1 % 8   R (3 % 1)
+        1 % 8   R (4 % 1)
+        1 % 8   R (5 % 1)
+        1 % 8   R (6 % 1)
+        1 % 8   R (7 % 1)
+
+> condEntropy bayesVuln hyper
+1 % 8
+
+> Variable stkout hyper
+1 % 1   1 % 1   R (0 % 1)
 
 > condEntropy bayesVuln hyper
 
