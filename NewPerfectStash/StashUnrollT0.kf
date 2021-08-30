@@ -1,0 +1,3 @@
+stash := uniform [0..7];
+stkout := 0;
+
